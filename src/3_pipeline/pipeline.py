@@ -73,7 +73,7 @@ def etl():
 def move_files():
     """Mover archivos de la carpeta stagging hacia la carpeta ingested"""
     
-    logging.info("Starging file moving")
+    logging.info("Starging file movin g")
     #
     stagging_path = os.path.join(config["stagging_dir"], "*.csv.zip")
     ingested_dir = config["ingested_dir"]
